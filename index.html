@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> personal portfolio</title>
+    <style> 
+        table, th, td {
+      border:1px solid blue;} </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="mainNav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+     
+    <nav>
+        <ul>
+            <li><a href="#ABOUT">ABOUT ME</a></li>
+            <li><a href="#project">MY PROJECT</a></li>
+            <li><a href="#skill">MY SKILLS</a></li>
+            <li><a href="#EXPERIENCE">MY EXPREIENCE</a></li>
+            <li><a href="#contact">CONTACT ME</a></li>
+        </ul>
+    </nav>
+    <button id="menuButton">Menu</button>
+    <section id="about">
+        <h2>ABOUT ME</h2>
+        
+        <P id="aboutMeText">My name is Bakhtawar Irfan, and I am a student of Computer Science currently in my 3rd semester. I have a strong passion for sports and enjoy watching movies in my free time. I believe in learning by doing, as I prefer practical work over theory. In addition to my academic and recreational interests, I also love traveling and exploring new places.I am from Quetta,Balochistan.Currently.This is a brief introduction about me</P>
+        <button id="toggleButton">Show More</button>
+        <br>
+<img src="https://images.freeimages.com/images/large-previews/ac7/sky-1401862.jpg?fmt=webp&w=500" alt="sky pic"width=120px>
+
+    </section>
+    <section id="PROJECTS">
+        <h2>MY PROJECTS</h2>
+        <table>
+            
+                <tr>
+                    <th>PROJECT NAME</th>
+                    <th>DESCRIPTION</th>
+                    <th>LINK</th>
+
+                </tr>
+            
+            
+                <tr>
+                    <td>my first project</td>
+                    <td>a brief DESCRIPTION about project 1</td>
+                    <td> <a href="https://github.com/Bakhtawar-Irfan/task1-HTML">click on link</a></td>
+                </tr>
+                <tr>
+                    <td>my second project</td>
+                    <td>a brief DESCRIPTION about project 2</td>
+                    <td><a href="https://github.com/Bakhtawar-Irfan/task2">click on link</a></td>
+                    
+                </tr>
+            
+        </table>
+    
+               <section  id="SKILLS">
+                <h2> MY SKILLS </h2>
+                   <ul> 
+                   <li> c++ </li>
+                   <li>sql</li>
+               
+               </ul>
+               <UL>
+                   
+                   <li> <label for="c++">c++:</label>
+                   <progress id="c++" value="50" max="100"> 50% </progress> </li>
+                   <li> <label for="sql">sql:</label>
+                   <progress id="sql" value="75" max="100"> 75% </progress> </li>
+                   </section>
+              
+           </section>
+      
+          
+     <section id="EXPREIENCE">
+                <h2>MY EXPREIENCE</h2>
+                <ul>
+                <li><strong> Academic Projects"</strong> - nust university(2 semester project)
+                <p>As a student, I created a digital Ludo game, handling the coding and designing the user interface, and ensuring smooth gameplay on a double device. I have also worked on additional projects, showcasing my skills in various aspects of programming.</p>
+                </li>
+                <li><strong> sports activities."</strong> - school,collage,uni(2010-2024)
+                <p>I have actively participated in various sports, winning numerous games and demonstrating strong teamwork and competitive skills. My involvement in sports has enhanced my discipline, leadership, and strategic thinking..</p>
+                </li>
+
+            </ul>
+
+
+            
+        
+        
+    </section>
+    <section id="contact">
+        <h2>CONTACT ME</h2>
+        <form id="contactForm">
+            <label for="name">NAME</label>
+            <div>
+                <input type="text" id="name">
+                <small id="nameError" class="error"></small>
+            </div>
+            <br>
+            
+            <label for="email">EMAIL</label>
+            <div>
+                <input type="email" id="email">
+                <small id="emailError" class="error"></small>
+            </div>
+            <br>
+            
+            <label for="message">Message:</label><br>
+            <textarea id="message"></textarea>
+            <small id="messageError" class="error"></small>
+            <br><br>
+            
+            <div>
+                <input type="submit" value="Submit Now">
+            </div>
+        </form>
+    </section>
+    
+
+    <footer>
+        <p>+2024 Your Name. All rights resevered</p>
+        <p> Contact with me on "my github"
+        <a href="https://github.com/Bakhtawar-Irfan">@Bakhtawar-Irfan</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
